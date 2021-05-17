@@ -24,9 +24,3 @@ for(var i=0;i<menu_list_array.length;i++){
 htmldata=htmldata+"</section>"
  document.getElementById("display_addedmenu").innerHTML = htmldata;
 }
-
-function add_top(){
-var item= document.getElementById("add_item").value;
-menu_list_array.push(item);
-add_item();
-}
